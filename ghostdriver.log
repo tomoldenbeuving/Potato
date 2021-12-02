@@ -1,0 +1,94 @@
+[INFO  - 2020-10-05T09:56:53.757Z] GhostDriver - Main - running on port 51474
+[INFO  - 2020-10-05T09:56:56.171Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-10-05T09:56:56.171Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.customHeaders:  - {}
+[INFO  - 2020-10-05T09:56:56.174Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-10-05T09:56:56.174Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1a35f1c0-06f1-11eb-99e6-f7a79e30e041
+[ERROR - 2020-10-05T09:56:56.966Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: Error: User not found by Usermanager
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:13:13607
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:210307
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:210396
+$eval@https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:328491
+$digest@https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:326779
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:328585
+h@https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:31460
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:64135
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:56.966Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  (anonymous function) (https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:56.967Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: Error: User not found by Usermanager
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:13:13607
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:210307
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:210396
+$eval@https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:328491
+$digest@https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:326779
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:328585
+h@https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:31460
+https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19:64135
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:56.967Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  (anonymous function) (https://meridiaan-college.magister.net/magister/app.4ff6d8d307bf037a8697.js:19)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.115Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: ERROR:  Expected an identifier but found '[' instead
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.115Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  reportError (https://iddinkgroup.containers.piwik.pro/46fb0b98-44b5-4448-8a43-1b25d6058c53.js:8)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.120Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: ERROR:  Expected an identifier but found '[' instead
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.120Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  reportError (https://iddinkgroup.containers.piwik.pro/46fb0b98-44b5-4448-8a43-1b25d6058c53.js:8)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.123Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: ERROR:  Expected an identifier but found '[' instead
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.123Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  reportError (https://iddinkgroup.containers.piwik.pro/46fb0b98-44b5-4448-8a43-1b25d6058c53.js:8)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.125Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: ERROR:  Expected an identifier but found '[' instead
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.125Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  reportError (https://iddinkgroup.containers.piwik.pro/46fb0b98-44b5-4448-8a43-1b25d6058c53.js:8)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.127Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: ERROR:  Expected an identifier but found '[' instead
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.127Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  reportError (https://iddinkgroup.containers.piwik.pro/46fb0b98-44b5-4448-8a43-1b25d6058c53.js:8)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.130Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: ERROR:  Expected an identifier but found '[' instead
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.130Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  reportError (https://iddinkgroup.containers.piwik.pro/46fb0b98-44b5-4448-8a43-1b25d6058c53.js:8)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.131Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: ERROR:  Expected an identifier but found '[' instead
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.131Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  reportError (https://iddinkgroup.containers.piwik.pro/46fb0b98-44b5-4448-8a43-1b25d6058c53.js:8)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.137Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - msg: ERROR:  Expected an identifier but found '[' instead
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.137Z] Session [1a35f1c0-06f1-11eb-99e6-f7a79e30e041] - page.onError - stack:
+  reportError (https://iddinkgroup.containers.piwik.pro/46fb0b98-44b5-4448-8a43-1b25d6058c53.js:8)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-05T09:56:57.735Z] RouterReqHand - _handle.error - {"line":264,"sourceURL":"phantomjs://code/webelement_request_handler.js","stack":"_postValueCommand@phantomjs://code/webelement_request_handler.js:264:52\n_handle@phantomjs://code/webelement_request_handler.js:72:30\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/session_request_handler.js:120:42\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
