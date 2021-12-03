@@ -14,5 +14,5 @@ df2 = pd.read_csv("data2.csv")
 df1 = df1.append(data, ignore_index=True)
 df2 = df2.append(data2, ignore_index=True)
 
-df3 = pd.merge(df1, df2)
+df3 = pd.merge_asof(df1, df2)
 print(df3)
