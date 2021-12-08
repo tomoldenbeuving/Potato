@@ -3,7 +3,7 @@ from shapely.geometry import Point
 import geopandas as gpd
 from geopandas import GeoDataFrame
 
-df = pd.read_csv("Long_Lats.csv", delimiter=',', skiprows=0)
+df = pd.read_csv("data.csv", delimiter=',', skiprows=0)
 
 geometry = [Point(xy) for xy in zip(df['Longitude'], df['Latitude'])]
 gdf = GeoDataFrame(df, geometry=geometry)   
