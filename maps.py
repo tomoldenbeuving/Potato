@@ -6,7 +6,7 @@ from geopandas import GeoDataFrame
 #pandas bestand uitlezen
 df = pd.read_csv("data.csv", delimiter=',', skiprows=0)
 
-
+#gff testen hoe github werkt
 #hieronder is alleemaal specifiek voor de kaart module
 geometry = [Point(xy) for xy in zip(df['Longitude'], df['Latitude'])]
 gdf = GeoDataFrame(df, geometry=geometry)   
