@@ -6,6 +6,8 @@ from geopandas import GeoDataFrame
 #pandas bestand uitlezen
 df = pd.read_csv("data.csv", delimiter=',', skiprows=0)
 
+#dit is de tests branch
+
 
 #hieronder is alleemaal specifiek voor de kaart module
 geometry = [Point(xy) for xy in zip(df['Longitude'], df['Latitude'])]
