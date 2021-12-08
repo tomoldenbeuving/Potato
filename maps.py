@@ -3,8 +3,11 @@ from shapely.geometry import Point
 import geopandas as gpd
 from geopandas import GeoDataFrame
 
+#pandas bestand uitlezen
 df = pd.read_csv("data.csv", delimiter=',', skiprows=0)
 
+
+#hieronder is alleemaal specifiek voor de kaart module
 geometry = [Point(xy) for xy in zip(df['Longitude'], df['Latitude'])]
 gdf = GeoDataFrame(df, geometry=geometry)   
 
