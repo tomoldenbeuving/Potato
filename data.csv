@@ -1,2 +1,3 @@
-longitude,latitude
-52.166665, 5.398278
+lon,lat,name
+52.166665, 5.398278, test
+
