@@ -1,18 +1,24 @@
 # %%
-import folium
+
 import pandas as pd
-# Build the default map for a specific location
+from datamangement import merge_data
+#functie om de verschillende datasets samen te voegen en te sorteren op een specifieke kolom
+
+df = merge_data("data.csv", "data2.csv", "time")
+
+df
+
+#%%
+
+import folium
 m = folium.Map(location=[52.166665, 5.398278], zoom_start=23)
-# Make a data frame with dots to show on the map
-df1 = pd.read_csv("data.csv")
-df2 = pd.read_csv("data2.csv")
-df1
-# add marker one by one on the map
-for i in range(0,len(df1)):
+
+for i in range(0,len(df)):
    folium.Marker(
-      location=[df1.iloc[i]['lat'], df1.iloc[i]['lon']],
-      popup=df1.iloc[i]['name'],
+      location=[df.iloc[i]['lat'], df.iloc[i]['lon']],
+      popup=df.iloc[i]['name']
    ).add_to(m)
-# Show the map again
+
 m
+
 #%%
