@@ -14,13 +14,13 @@ class loc:
     
     
     def lon():
-        print(parsed_data.lon)
+        return parsed_data.lon
     
     def lat():
-        print(parsed_data.lat)
+        return parsed_data.lat
 
     def time():
-        print(parsed_data.time)
+        return parsed_data.time
     
     stream.close()
 
