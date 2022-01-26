@@ -5,6 +5,7 @@ import folium
 #functie om de verschillende datasets samen te voegen en te sorteren op een specifieke kolom
 
 def map(data, data2): 
+  # dit is dus de derde
    df = merge_data(data, data2, "time")
    m = folium.Map(location=[52.166665, 5.398278], zoom_start=23)
    for i in range(0,len(df)):
@@ -12,4 +13,4 @@ def map(data, data2):
          location=[df.iloc[i]['lat'], df.iloc[i]['lon']],
          popup=df.iloc[i]['name']
       ).add_to(m)
-   return m
+   m
