@@ -1,29 +1,23 @@
 #%%
 from maps import map
-from GPS import loc
+from GPS import locatie
 import pandas as pd
 import folium
 import time
 
-df = pd.DataFrame({
-    "time":[loc.time()],
-    "lat":[loc.lat()],
-    "lon":[loc.lon()]
-})
-print(df)
-time.sleep(10)
+df = pd.read_csv('data.csv')
 
+df2 = pd.DataFrame(locatie())
 
-df = df.append({
-    "time":loc.time(),
-    "lat":loc.lat(),
-    "lon":loc.lon()
-},ignore_index=True)
+df2 = df2[' '].str.split(',')
+
+df = pd.concat([df,df2])
 
 print(df)
+
 
 #%%
 
-map("data.csv", "data2.csv")
+#map('data.csv', 'data2.csv')
 
 #%%
