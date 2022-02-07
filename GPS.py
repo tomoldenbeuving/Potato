@@ -18,7 +18,7 @@ def locatie():
             i += 1
             ser.close()
             print(
-                msg.timestamp,",",msg.lat,",",msg.lon
+                float(msg.timestamp),",",float(msg.lat)/100,",",float(msg.lon)/100
             )
         except serial.SerialException as e:
             print('Device error: {}'.format(e))
