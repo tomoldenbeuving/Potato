@@ -17,7 +17,7 @@ def locatie():
             line = line.split(",")
             if str(line[0]) == str('$GPGGA'):
                 Data = line
-                Data = [float(line[1]), float(line[2]), float(line[4])]
+                Data = [float(line[1]), float(line[2])/100, float(line[4])]
                 ser.close()
                 return Data
             else:
