@@ -1,5 +1,8 @@
-from maps import map
 from GPS import locatie
-import pandas as pd
-import folium
-import time
+
+i=0
+
+while i < 10:
+    print(locatie())
+    i+=1
+    continue
