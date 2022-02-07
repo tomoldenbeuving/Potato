@@ -5,26 +5,23 @@ import pynmea2
 import pandas as pd
 import time
 import io
-def locatie():
-    global ser
-    ser = serial.Serial('COM4',4800, timeout=3)
-    sio = io.TextIOWrapper(io.BufferedRWPair(ser, ser))
-    i=0
-    while i < 1:
-        try:
-            line = sio.readline()
-            msg = pynmea2.parse(line)
-            repr(msg)
-            i += 1
-            ser.close()
-            print(
-                msg.timestamp,",",msg.lat,",",msg.lon
-            )
-        except serial.SerialException as e:
-            print('Device error: {}'.format(e))
-            break
-        except pynmea2.ParseError as e:
-            print('Parse error: {}'.format(e))
-            continue        
 
+def locatie():
+    while 1:
+        try:
+            global ser
+            ser = serial.Serial('COM4',4800, timeout=3)
+            sio = io.TextIOWrapper(io.BufferedRWPair(ser, ser))
+            line = sio.readline()
+
+            line = line.split(",")
+            if str(line[0]) == str('$GPGGA'):
+                Data = line
+                Data = [float(line[1]), float(line[2]), float(line[4])]
+                ser.close()
+                return Data
+            else:
+                continue
+        except serial.SerialException as e:
+            ser.close()
 
