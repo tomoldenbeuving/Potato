@@ -17,7 +17,7 @@ def locatie():
             match = line.split(",")
             if str(match[0]) == str('$GPGGA'):
                 parsed = pynmea2.parse(line)
-                Data = [float(parsed.lat)/100, float(parsed.lon)/100, str(parsed.timestamp)]
+                Data = [float(parsed.lat)/100 , float(parsed.lon)/100 , str(parsed.timestamp)]
                 ser.close()
                 return Data
             else:
