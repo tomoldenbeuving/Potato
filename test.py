@@ -7,8 +7,6 @@ i=0
 #    i+=1
 #    continue
 
-from    LatLon import string2latlon
-
 parsedlat = 52.089816
 parsedlon = 5.227723
 
